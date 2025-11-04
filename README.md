@@ -42,3 +42,14 @@ A program interaktív módon kéri be a magyar szöveget, majd lépésről lép�
   safetensors
   sentencepiece
   protobuf
+
+## Futtatás
+
+A program futtatásához a következő parancsokat kell végrehajtani:
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate       # Windows
+# source .venv/bin/activate  # macOS / Linux
+pip install -r requirements.txt
+python main.py
